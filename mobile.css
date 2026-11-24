@@ -1,0 +1,77 @@
+@media (max-width: 767px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .ant-app > .ant-layout > .ant-layout-header > .ant-flex {
+    padding: 0 16px !important;
+    gap: 8px !important;
+  }
+
+  .ant-app > .ant-layout > .ant-layout-header > .ant-flex > div:last-child {
+    gap: 8px !important;
+    min-width: 0;
+  }
+
+  .index-module__L1ihtW__searchContainer {
+    display: none !important;
+  }
+
+  .ant-app > .ant-layout > main .ant-layout[style*="padding: 24px"] {
+    padding: 16px !important;
+  }
+
+  .ant-layout-has-sider {
+    flex-direction: column !important;
+    gap: 12px;
+  }
+
+  .ant-layout-has-sider > .ant-layout-sider {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .ant-layout-has-sider .ant-menu {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+
+  .ant-layout-has-sider > .ant-layout-content {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .ant-layout-has-sider .ant-card,
+  .ant-layout-has-sider .ant-form {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .ant-layout-has-sider .ant-card-head-title,
+  .ant-layout-has-sider .ant-card-body,
+  .ant-layout-has-sider h3 {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .ant-layout-has-sider .ant-card-body .ant-row > .ant-col {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .ant-layout-has-sider .ant-card-head .ant-flex {
+    flex-wrap: wrap;
+  }
+
+  .ant-layout-has-sider img[src$="studentsIdBarcode.svg"] {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+}
